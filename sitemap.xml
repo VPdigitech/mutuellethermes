@@ -114,6 +114,38 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- ARTICLES BLOG (5 articles SEO longue traîne) -->
+  <url>
+    <loc>https://www.mutuellethermes.com/meilleure-mutuelle-cure-thermale-2026/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.mutuellethermes.com/cure-thermale-rhumatisme/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.mutuellethermes.com/cure-thermale-hauts-de-france/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.mutuellethermes.com/balneotherapie-vs-cure-thermale/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.mutuellethermes.com/cure-thermale-ald-2026/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- PAGES STATIQUES -->
   <url>
     <loc>https://www.mutuellethermes.com/mentions-legales/</loc>
