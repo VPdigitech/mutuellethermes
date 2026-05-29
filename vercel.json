@@ -9,8 +9,6 @@
     }
   ],
   "redirects": [
-    { "source": "/articles/", "destination": "/", "permanent": false },
-    { "source": "/articles", "destination": "/", "permanent": false },
     { "source": "/comparateur/", "destination": "/", "permanent": false },
     { "source": "/comparateur", "destination": "/", "permanent": false },
     { "source": "/quiz/", "destination": "/", "permanent": false },
