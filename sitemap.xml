@@ -146,6 +146,19 @@
     <priority>0.9</priority>
   </url>
 
+  <url>
+    <loc>https://www.mutuellethermes.com/dax-balaruc-vichy-comparatif-stations/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.mutuellethermes.com/mutuelle-remboursement-medecines-douces-thermes/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- PAGES STATIQUES -->
   <url>
     <loc>https://www.mutuellethermes.com/mentions-legales/</loc>
@@ -161,3 +174,4 @@
   </url>
 
 </urlset>
+
