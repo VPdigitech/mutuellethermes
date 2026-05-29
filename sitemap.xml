@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- PAGE PRINCIPALE -->
+  <url>
+    <loc>https://www.mutuellethermes.com/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- CLUSTER 1 — BEST OF (intention : trouver le meilleur) -->
+  <url>
+    <loc>https://www.mutuellethermes.com/meilleure-mutuelle-cure-thermale-2026/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.mutuellethermes.com/meilleure-mutuelle-cure-thermale-rhumatisme/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.mutuellethermes.com/meilleure-mutuelle-cure-thermale-arthrose/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.mutuellethermes.com/meilleure-mutuelle-balnéothérapie-remboursement/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- CLUSTER 2 — VS (intention : comparer) -->
+  <url>
+    <loc>https://www.mutuellethermes.com/april-sante-vs-harmonie-mutuelle-thermes/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.mutuellethermes.com/balneotherapie-vs-cure-thermale-remboursement/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- CLUSTER 3 — ALTERNATIVES (intention : économiser) -->
+  <url>
+    <loc>https://www.mutuellethermes.com/alternatives-mutuelle-thermale-moins-chere/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- CLUSTER RÉGIONS (longue traîne géolocalisée) -->
+  <url>
+    <loc>https://www.mutuellethermes.com/cure-thermale-hauts-de-france-remboursement-mutuelle/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mutuellethermes.com/cure-thermale-occitanie-meilleure-mutuelle/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mutuellethermes.com/thermes-auvergne-mutuelle-remboursement/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mutuellethermes.com/cure-thermale-nouvelle-aquitaine-dax-mutuelle/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- CLUSTER MÉDECINES DOUCES (sous-niche inexploitée) -->
+  <url>
+    <loc>https://www.mutuellethermes.com/mutuelle-remboursement-osteopathie-thermes/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.mutuellethermes.com/mutuelle-remboursement-acupuncture-cure-thermale/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mutuellethermes.com/mutuelle-remboursement-naturopathie-bien-etre/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- CLUSTER ALD (très recherché 2026) -->
+  <url>
+    <loc>https://www.mutuellethermes.com/cure-thermale-ald-remboursement-2026/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- PAGES STATIQUES -->
+  <url>
+    <loc>https://www.mutuellethermes.com/mentions-legales/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.mutuellethermes.com/politique-confidentialite/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

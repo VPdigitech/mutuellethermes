@@ -1,0 +1,15 @@
+# MutuelleThermes.com — robots.txt
+# Mis à jour : Mai 2026
+
+User-agent: *
+Allow: /
+
+# Bloquer les pages sans valeur SEO
+Disallow: /api/
+Disallow: /*.json$
+
+# Sitemap
+Sitemap: https://www.mutuellethermes.com/sitemap.xml
+
+# Crawl-delay conseillé (optionnel)
+Crawl-delay: 1
