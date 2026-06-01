@@ -192,7 +192,6 @@
 <!-- ═══════════════════════════════════════════
      PERFORMANCE
 ═══════════════════════════════════════════ -->
-<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -2507,7 +2506,7 @@ footer {
               <li>✓ Balnéothérapie & spa</li>
               <li>✓ Médecines douces</li>
             </ul>
-            <a href="https://www.april.fr/sante/mutuelle-sante" target="_blank" rel="noopener" class="lead-card__btn">Devis gratuit →</a>
+            <a href="javascript:void(0)" class="lead-card__btn" onclick="showPage('comparateur')">Devis gratuit →</a>
             <div class="lead-card__mention">Sans engagement · Réponse en 2 min</div>
           </div>
 
@@ -2522,7 +2521,7 @@ footer {
               <li>✓ Spa & bien-être</li>
               <li>✓ Dès 58€/mois</li>
             </ul>
-            <a href="https://www.harmonie-mutuelle.fr/particuliers/sante" target="_blank" rel="noopener" class="lead-card__btn lead-card__btn--second">Comparer →</a>
+            <a href="javascript:void(0)" class="lead-card__btn lead-card__btn--second" onclick="showPage('comparateur')">Comparer →</a>
             <div class="lead-card__mention">100% en ligne · RGPD</div>
           </div>
 
@@ -2537,7 +2536,7 @@ footer {
               <li>✓ Annulation gratuite</li>
               <li>✓ Via Booking.com</li>
             </ul>
-            <a href="https://www.booking.com/searchresults.fr.html?ss=thermes+france&no_rooms=1&group_adults=1" target="_blank" rel="noopener" class="lead-card__btn lead-card__btn--booking">Voir les hébergements →</a>
+            <a href="javascript:void(0)" class="lead-card__btn lead-card__btn--booking" onclick="showPage('comparateur')">Voir les hébergements →</a>
             <div class="lead-card__mention">Meilleurs prix garantis</div>
           </div>
 
@@ -2636,37 +2635,7 @@ footer {
     </div>
   </section>
 
-  <!-- NEWSLETTER BREVO -->
-  <section class="section section-bleu">
-    <div class="container">
-      <div class="newsletter-box">
-        <h2>Le guide thermal dans votre boîte mail</h2>
-        <p>Conseils pratiques, nouveaux remboursements, bons plans hébergement. La lettre bimensuelle que lisent déjà 4 200 curistes.</p>
 
-        <!-- Formulaire Brevo intégré -->
-        <div id="brevo-form-wrapper" style="max-width:500px;margin:0 auto;">
-          <form id="sib-form" method="POST" action="https://c1063e05.sibforms.com/serve/MUIFAPsLO0-8eI9yqGdI7uZOvvuR4tpr_Gfw8knpfL62lU75XNq1h-o9xFkBS5F5qqOvvaBcU2x0lz7-YL91ddRGw043bEKKihPG2zevLp_I8UJDFrsch9tJPOt2Z8Y99mzbyF0p3pHS40pNqzanY3xjOlpbP6gdVTKRMfzD5K5yL6bRZxr2vbw2vpXWv8jayME4lBeATjuLwE0jAg==" data-type="subscription" style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;">
-            <input type="email" id="EMAIL" name="EMAIL" placeholder="Votre adresse e-mail" required autocomplete="off"
-              style="flex:1;min-width:240px;padding:14px 20px;border-radius:50px;border:none;font-family:'Source Serif 4',serif;font-size:1rem;outline:none;">
-            <input type="text" name="email_address_check" value="" style="display:none;">
-            <input type="hidden" name="locale" value="fr">
-            <button type="submit"
-              style="background:var(--or);color:white;padding:14px 28px;border-radius:50px;border:none;font-family:'Source Serif 4',serif;font-size:1rem;font-weight:700;cursor:pointer;transition:all 0.2s;white-space:nowrap;">
-              M'abonner →
-            </button>
-          </form>
-          <div id="success-message" style="display:none;color:#7dd8d4;font-weight:600;margin-top:14px;font-size:0.95rem;">
-            ✅ Merci ! Vous recevrez votre premier conseil thermal très bientôt.
-          </div>
-          <div id="error-message" style="display:none;color:#ff6b6b;margin-top:14px;font-size:0.9rem;">
-            ⚠️ Une erreur s'est produite. Veuillez réessayer.
-          </div>
-        </div>
-
-        <div class="newsletter-rgpd">🔒 Aucune donnée revendue. Désabonnement en 1 clic. Conforme RGPD.</div>
-      </div>
-    </div>
-  </section>
 
   <!-- ARTICLES RÉCENTS -->
   <section class="section section-alt">
@@ -3179,7 +3148,7 @@ footer {
             <div class="location">📍 Balaruc-les-Bains, Hérault</div>
             <div class="heberg-prix"><span class="montant">58€</span><span class="par-nuit">/nuit</span></div>
             <div class="heberg-tags"><span class="heberg-tag">🚿 Thermes à 200m</span><span class="heberg-tag">🍽️ Petit-déj inclus</span></div>
-            <a href="https://www.booking.com/searchresults.fr.html?ss=balaruc-les-bains&checkin_year=2026&checkin_month=9&checkout_year=2026&checkout_month=9&no_rooms=1&group_adults=1" target="_blank" rel="noopener" class="btn btn-primary" style="width:100%;text-align:center;padding:11px;">Voir sur Booking →</a>
+            <a href="javascript:void(0)" class="btn btn-primary" style="width:100%;text-align:center;padding:11px;">Voir sur Booking →</a>
           </div>
         </div>
         <div class="hebergement-card">
@@ -3189,7 +3158,7 @@ footer {
             <div class="location">📍 Dax, Landes</div>
             <div class="heberg-prix"><span class="montant">45€</span><span class="par-nuit">/nuit</span></div>
             <div class="heberg-tags"><span class="heberg-tag">♿ Accessible PMR</span><span class="heberg-tag">🅿️ Parking gratuit</span></div>
-            <a href="https://www.booking.com/searchresults.fr.html?ss=dax+thermes&checkin_year=2026&checkin_month=9&checkout_year=2026&checkout_month=9&no_rooms=1&group_adults=1" target="_blank" rel="noopener" class="btn btn-primary" style="width:100%;text-align:center;padding:11px;">Voir sur Booking →</a>
+            <a href="javascript:void(0)" class="btn btn-primary" style="width:100%;text-align:center;padding:11px;">Voir sur Booking →</a>
           </div>
         </div>
         <div class="hebergement-card">
@@ -3199,7 +3168,7 @@ footer {
             <div class="location">📍 Vichy, Allier</div>
             <div class="heberg-prix"><span class="montant">39€</span><span class="par-nuit">/nuit</span></div>
             <div class="heberg-tags"><span class="heberg-tag">👨‍👩‍👧 Famille bienvenue</span><span class="heberg-tag">🌳 Jardin</span></div>
-            <a href="https://www.booking.com/searchresults.fr.html?ss=vichy+thermes&checkin_year=2026&checkin_month=9&checkout_year=2026&checkout_month=9&no_rooms=1&group_adults=1" target="_blank" rel="noopener" class="btn btn-primary" style="width:100%;text-align:center;padding:11px;">Voir sur Booking →</a>
+            <a href="javascript:void(0)" class="btn btn-primary" style="width:100%;text-align:center;padding:11px;">Voir sur Abritel →</a>
           </div>
         </div>
       </div>
@@ -3471,23 +3440,7 @@ footer {
       </div><!-- /blog-grid -->
 
       <!-- ENCART NEWSLETTER intégré au blog -->
-      <div class="blog-newsletter">
-        <div class="blog-newsletter__icon">💌</div>
-        <div class="blog-newsletter__text">
-          <h3>La lettre bimensuelle des curistes</h3>
-          <p>Nouveaux articles, remboursements à surveiller, bons plans stations. Lu par 4 200 lecteurs chaque quinzaine.</p>
-        </div>
-        <div class="blog-newsletter__form">
-          <form method="POST" action="https://c1063e05.sibforms.com/serve/MUIFAPsLO0-8eI9yqGdI7uZOvvuR4tpr_Gfw8knpfL62lU75XNq1h-o9xFkBS5F5qqOvvaBcU2x0lz7-YL91ddRGw043bEKKihPG2zevLp_I8UJDFrsch9tJPOt2Z8Y99mzbyF0p3pHS40pNqzanY3xjOlpbP6gdVTKRMfzD5K5yL6bRZxr2vbw2vpXWv8jayME4lBeATjuLwE0jAg==" data-type="subscription" style="display:flex;gap:10px;flex-wrap:wrap;">
-            <input type="email" name="EMAIL" placeholder="Votre adresse e-mail" id="emailBlog" required
-              style="flex:1;padding:12px 20px;border-radius:50px;border:none;font-family:'Source Serif 4',serif;font-size:0.97rem;">
-            <input type="text" name="email_address_check" value="" style="display:none;">
-            <input type="hidden" name="locale" value="fr">
-            <button type="submit" class="btn btn-or">M'abonner →</button>
-          </form>
-        </div>
-        <div class="blog-newsletter__rgpd">🔒 Aucune donnée revendue · Désabonnement en 1 clic</div>
-      </div>
+
 
     </div>
   </section>
@@ -3521,7 +3474,6 @@ footer {
       <ul>
         <li>Aucune donnée personnelle identifiable n'est collectée lors de votre navigation</li>
         <li>Le quiz pathologie fonctionne entièrement côté navigateur — aucune réponse n'est transmise à un serveur</li>
-        <li>La newsletter utilise un service tiers (Brevo/Mailchimp) — en vous inscrivant, vous acceptez leurs CGU</li>
         <li>Des cookies de mesure d'audience anonymes peuvent être déposés (Google Analytics anonymisé)</li>
         <li>Aucun cookie publicitaire tiers n'est installé</li>
       </ul>
@@ -3560,7 +3512,6 @@ footer {
     <div class="legal-section">
       <h2>Données collectées</h2>
       <p><strong>Quiz pathologie :</strong> Vos réponses au quiz restent uniquement dans votre navigateur. Elles ne sont jamais transmises à nos serveurs. Aucun cookie n'enregistre vos choix.</p>
-      <p><strong>Newsletter :</strong> Si vous vous inscrivez à notre newsletter, votre adresse e-mail est transmise à notre prestataire d'envoi (Brevo). Vous pouvez vous désabonner à tout moment en un clic.</p>
       <p><strong>Statistiques de navigation :</strong> Nous utilisons Google Analytics en mode anonymisé (sans cookie publicitaire, IP masquée) pour mesurer notre audience de façon agrégée.</p>
     </div>
 
@@ -3836,7 +3787,6 @@ function filterBlog(cat, btn) {
   }
 }
 
-// === NEWSLETTER ===
 // === STATION ===
 function showStation() {
   document.getElementById('station-exemple').style.display = 'block';
@@ -3856,15 +3806,14 @@ function filterMutuelles() {
 
 // === TUNNELS CPLEAD ===
 const leadData = {
-  april:   { logo:'AP', name:'April Santé Senior', remb:'700€/an', color:'#1a4a6b', features:['✓ Cure thermale incluse','✓ Balnéothérapie 200€/an','✓ Médecines douces 40€/séance','✓ Hébergement thermal'], viewers: 12, url:'https://www.april.fr/sante/mutuelle-sante' },
-  harmonie:{ logo:'HM', name:'Harmonie Mutuelle', remb:'500€/an', color:'#3aafa9', features:['✓ Cure thermale incluse','✓ Spa & bien-être','✓ Dès 58€/mois','✓ Réseau agréé étendu'], viewers: 7, url:'https://www.harmonie-mutuelle.fr/particuliers/sante' },
-  mnh:     { logo:'MN', name:'MNH Senior', remb:'400€/an', color:'#c9973a', features:['✓ Cure thermale incluse','✓ Médecines douces 30€','✓ Réseau senior spécialisé','✓ Sans délai de carence'], viewers: 5, url:'https://www.mnh.fr/particuliers/sante' },
-  mgen:    { logo:'MC', name:'MGEN', remb:'350€/an', color:'#5b4a8a', features:['✓ Cure thermale incluse','✓ Médecines douces 25€','✓ Réseau MGEN étendu','✓ Téléconsultation incluse'], viewers: 4, url:'https://www.mgen.fr/offres-sante' },
-  macif:   { logo:'MF', name:'Macif Santé', remb:'300€/an', color:'#c0392b', features:['✓ Cure thermale de base','✓ Bonne couverture hospit.','✓ Tarif accessible','✓ Gestion en ligne'], viewers: 3, url:'https://www.macif.fr/assurance/particuliers/sante' },
+  april:   { logo:'AP', name:'April Santé Senior', remb:'700€/an', color:'#1a4a6b', features:['✓ Cure thermale incluse','✓ Balnéothérapie 200€/an','✓ Médecines douces 40€/séance','✓ Hébergement thermal'], viewers: 12 },
+  harmonie:{ logo:'HM', name:'Harmonie Mutuelle', remb:'500€/an', color:'#3aafa9', features:['✓ Cure thermale incluse','✓ Spa & bien-être','✓ Dès 58€/mois','✓ Réseau agréé étendu'], viewers: 7 },
+  mnh:     { logo:'MN', name:'MNH Senior', remb:'400€/an', color:'#c9973a', features:['✓ Cure thermale incluse','✓ Médecines douces 30€','✓ Réseau senior spécialisé','✓ Sans délai de carence'], viewers: 5 },
+  mgen:    { logo:'MC', name:'MGEN', remb:'350€/an', color:'#5b4a8a', features:['✓ Cure thermale incluse','✓ Médecines douces 25€','✓ Réseau MGEN étendu','✓ Téléconsultation incluse'], viewers: 4 },
+  macif:   { logo:'MF', name:'Macif Santé', remb:'300€/an', color:'#c0392b', features:['✓ Cure thermale de base','✓ Bonne couverture hospit.','✓ Tarif accessible','✓ Gestion en ligne'], viewers: 3 },
 };
 
 function openLeadModal(id) {
-  window.currentLeadId = id;
   const d = leadData[id] || leadData.april;
   document.getElementById('leadLogo').textContent = d.logo;
   document.getElementById('leadLogo').style.background = d.color;
@@ -3886,12 +3835,8 @@ function leadStep2() {
   document.getElementById('leadStep1').style.display = 'none';
   document.getElementById('leadStep2').style.display = 'block';
   document.getElementById('prog2').classList.add('active');
-  // Récupère le vrai lien de la mutuelle sélectionnée
-  const currentLead = window.currentLeadId || 'april';
-  const url = leadData[currentLead]?.url || 'https://www.mutuellethermes.com/';
-  document.getElementById('leadFinalCta').href = url;
-  document.getElementById('leadFinalCta').target = '_blank';
-  document.getElementById('leadFinalCta').rel = 'noopener';
+  // En production : remplacer '#' par le vrai lien affilié
+  document.getElementById('leadFinalCta').href = '#';
 }
 
 function closeLeadModal() {
@@ -3999,16 +3944,7 @@ function closeModalOutside(e) {
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 </script>
 
-<!-- Script Brevo Newsletter -->
-<script>
-  window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
-  window.LOCALE = 'fr';
-  window.EMAIL_INVALID_MESSAGE = "L'adresse e-mail saisie n'est pas valide. Veuillez vérifier et réessayer.";
-  window.REQUIRED_ERROR_MESSAGE = "Ce champ est obligatoire.";
-  window.GENERIC_INVALID_MESSAGE = "L'adresse e-mail saisie n'est pas valide. Veuillez vérifier et réessayer.";
-  var AUTOHIDE = Boolean(0);
-</script>
-<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+
 
 </body>
 </html>
