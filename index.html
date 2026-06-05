@@ -192,6 +192,7 @@
 <!-- ═══════════════════════════════════════════
      PERFORMANCE
 ═══════════════════════════════════════════ -->
+<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -2635,7 +2636,37 @@ footer {
     </div>
   </section>
 
+  <!-- NEWSLETTER BREVO -->
+  <section class="section section-bleu">
+    <div class="container">
+      <div class="newsletter-box">
+        <h2>Le guide thermal dans votre boîte mail</h2>
+        <p>Conseils pratiques, nouveaux remboursements, bons plans hébergement. La lettre bimensuelle que lisent déjà 4 200 curistes.</p>
 
+        <!-- Formulaire Brevo intégré -->
+        <div id="brevo-form-wrapper" style="max-width:500px;margin:0 auto;">
+          <form id="sib-form" method="POST" action="https://c1063e05.sibforms.com/serve/MUIFAPsLO0-8eI9yqGdI7uZOvvuR4tpr_Gfw8knpfL62lU75XNq1h-o9xFkBS5F5qqOvvaBcU2x0lz7-YL91ddRGw043bEKKihPG2zevLp_I8UJDFrsch9tJPOt2Z8Y99mzbyF0p3pHS40pNqzanY3xjOlpbP6gdVTKRMfzD5K5yL6bRZxr2vbw2vpXWv8jayME4lBeATjuLwE0jAg==" data-type="subscription" style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;">
+            <input type="email" id="EMAIL" name="EMAIL" placeholder="Votre adresse e-mail" required autocomplete="off"
+              style="flex:1;min-width:240px;padding:14px 20px;border-radius:50px;border:none;font-family:'Source Serif 4',serif;font-size:1rem;outline:none;">
+            <input type="text" name="email_address_check" value="" style="display:none;">
+            <input type="hidden" name="locale" value="fr">
+            <button type="submit"
+              style="background:var(--or);color:white;padding:14px 28px;border-radius:50px;border:none;font-family:'Source Serif 4',serif;font-size:1rem;font-weight:700;cursor:pointer;transition:all 0.2s;white-space:nowrap;">
+              M'abonner →
+            </button>
+          </form>
+          <div id="success-message" style="display:none;color:#7dd8d4;font-weight:600;margin-top:14px;font-size:0.95rem;">
+            ✅ Merci ! Vous recevrez votre premier conseil thermal très bientôt.
+          </div>
+          <div id="error-message" style="display:none;color:#ff6b6b;margin-top:14px;font-size:0.9rem;">
+            ⚠️ Une erreur s'est produite. Veuillez réessayer.
+          </div>
+        </div>
+
+        <div class="newsletter-rgpd">🔒 Aucune donnée revendue. Désabonnement en 1 clic. Conforme RGPD.</div>
+      </div>
+    </div>
+  </section>
 
   <!-- ARTICLES RÉCENTS -->
   <section class="section section-alt">
@@ -3025,7 +3056,7 @@ footer {
     <div class="container">
       <div class="badge">Comparateur indépendant</div>
       <h1 style="font-size:2.1rem; color:var(--bleu-thermal); margin-bottom:10px;">Comparateur Mutuelles Thermes & Bien-être</h1>
-      <p style="color:#6b6560; max-width:640px; margin-bottom:36px;">Toutes les offres mutuelles analysées sur leurs remboursements cure thermale, balnéothérapie et médecines douces. Sans commission cachée, sans favoritisme.</p>
+      <p style="color:#6b6560; max-width:640px; margin-bottom:36px;">Toutes les offres mutuelles analysées sur leurs remboursements cure thermale, balnéothérapie et médecines douces. Certains liens sont des liens commerciaux rémunérés — cela n'influence pas nos analyses.</p>
 
       <div class="comparateur-filters">
         <div class="filter-group">
@@ -3130,7 +3161,7 @@ footer {
         </tbody>
       </table>
 
-      <p class="affiliate-mention">* Les liens vers les mutuelles sont des liens d'affiliation. MutuelleThermes.com perçoit une commission sur les souscriptions. Cela ne modifie pas notre classement, basé uniquement sur les remboursements réels.</p>
+      <p class="affiliate-mention">* Certains liens vers les mutuelles sont des liens commerciaux rémunérés. MutuelleThermes.com peut percevoir une commission sur les souscriptions effectuées via ces liens. Cela ne modifie pas notre classement, basé uniquement sur les remboursements réels.</p>
     </div>
   </section>
 
@@ -3139,7 +3170,7 @@ footer {
     <div class="container">
       <div class="badge badge-turquoise">Partenaires hébergement</div>
       <h2 style="font-size:1.8rem; color:var(--bleu-thermal); margin-bottom:8px;">Hôtels & résidences proches des thermes</h2>
-      <p style="color:#6b6560; max-width:560px; margin-bottom: 8px;">Sélection d'hébergements vérifiés à moins de 500m des stations thermales. Commission reversée par Booking.com (4-8%) — sans surcoût pour vous.</p>
+      <p style="color:#6b6560; max-width:560px; margin-bottom: 8px;">Sélection d'hébergements vérifiés à moins de 500m des stations thermales. Liens commerciaux via Booking.com (commission de 4-8% sur les réservations) — sans surcoût pour vous.</p>
       <div class="hebergement-grid">
         <div class="hebergement-card">
           <div class="heberg-image">🏨</div>
@@ -3172,7 +3203,7 @@ footer {
           </div>
         </div>
       </div>
-      <p class="affiliate-mention">Liens d'affiliation Booking.com et Abritel. Commission de 4 à 8% sur les réservations. Prix identiques pour vous.</p>
+      <p class="affiliate-mention">Certains liens hébergement sont des liens commerciaux rémunérés via Booking.com. Commission de 4 à 8% sur les réservations. Prix identiques pour vous.</p>
     </div>
   </section>
 </div><!-- /page-comparateur -->
@@ -3185,7 +3216,7 @@ footer {
     <div class="container">
       <div class="badge">89 stations en France</div>
       <h1 style="font-size:2.1rem; color:var(--bleu-thermal); margin-bottom:10px;">Stations thermales par région</h1>
-      <p style="color:#6b6560; max-width:640px; margin-bottom:8px;">Trouvez la station thermale la plus proche de chez vous. Chaque fiche détaille les pathologies traitées, les tarifs, les mutuelles partenaires et les hébergements.</p>
+      <p style="color:#6b6560; max-width:640px; margin-bottom:8px;">Trouvez la station thermale la plus proche de chez vous. Chaque fiche détaille les pathologies traitées, les tarifs, les mutuelles recommandées et les hébergements.</p>
       <div class="regions-grid">
         <a href="javascript:void(0)" class="region-card" onclick="showStation()"><span class="region-emoji">🏔️</span><div class="region-name">Hauts-de-France</div><div class="region-stations">3 stations</div></a>
         <a href="javascript:void(0)" class="region-card"><span class="region-emoji">🌋</span><div class="region-name">Auvergne-Rhône-Alpes</div><div class="region-stations">18 stations</div></a>
@@ -3323,7 +3354,7 @@ footer {
           <div class="blog-card__body">
             <div class="blog-cat-label region">🗺️ Régions</div>
             <h3 class="blog-card__title">Cure thermale en Hauts-de-France : tout ce qu'il faut savoir</h3>
-            <p class="blog-card__excerpt">Saint-Amand, Bains-de-Saint-Thomas… Les stations de votre région décryptées — spécialités, tarifs, mutuelles partenaires.</p>
+            <p class="blog-card__excerpt">Saint-Amand, Bains-de-Saint-Thomas… Les stations de votre région décryptées — spécialités, tarifs, mutuelles recommandées.</p>
             <div class="blog-card__footer">
               <div class="blog-card__meta">
                 <span>📅 Avril 2026</span>
@@ -3440,7 +3471,18 @@ footer {
       </div><!-- /blog-grid -->
 
       <!-- ENCART NEWSLETTER intégré au blog -->
-
+      <div class="blog-newsletter">
+        <div class="blog-newsletter__icon">💌</div>
+        <div class="blog-newsletter__text">
+          <h3>La lettre bimensuelle des curistes</h3>
+          <p>Nouveaux articles, remboursements à surveiller, bons plans stations. Lu par 4 200 lecteurs chaque quinzaine.</p>
+        </div>
+        <div class="blog-newsletter__form">
+          <input type="email" placeholder="Votre adresse e-mail" id="emailBlog">
+          <button class="btn btn-or" onclick="subscribeNewsletter()">M'abonner →</button>
+        </div>
+        <div class="blog-newsletter__rgpd">🔒 Aucune donnée revendue · Désabonnement en 1 clic</div>
+      </div>
 
     </div>
   </section>
@@ -3456,8 +3498,11 @@ footer {
 
     <div class="legal-section">
       <h2>Éditeur du site</h2>
-      <p>MutuelleThermes.com est un comparateur indépendant d'offres mutuelles et thermales opéré par un éditeur indépendant. Ce site n'est affilié à aucun organisme mutualiste, aucune caisse d'assurance maladie, ni aucune station thermale.</p>
-      <p>Contact : contact@mutuellethermes.com</p>
+      <p>MutuelleThermes.com est un site édité à titre personnel par <strong>Paulo Vieira Lopes</strong>, particulier domicilié en France.</p>
+      <p>Ce site est un comparateur indépendant d'information sur les mutuelles santé et les cures thermales. Il n'est affilié à aucun organisme mutualiste, aucune caisse d'assurance maladie, ni aucune station thermale.</p>
+      <p><strong>Directeur de la publication :</strong> Paulo Vieira Lopes</p>
+      <p><strong>Contact :</strong> contact@mutuellethermes.com</p>
+      <p><strong>Hébergement :</strong> Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis. Code source hébergé sur GitHub (Microsoft Corporation).</p>
     </div>
 
     <div class="legal-section">
@@ -3474,20 +3519,24 @@ footer {
       <ul>
         <li>Aucune donnée personnelle identifiable n'est collectée lors de votre navigation</li>
         <li>Le quiz pathologie fonctionne entièrement côté navigateur — aucune réponse n'est transmise à un serveur</li>
+        <li>La newsletter utilise un service tiers (Brevo/Mailchimp) — en vous inscrivant, vous acceptez leurs CGU</li>
         <li>Des cookies de mesure d'audience anonymes peuvent être déposés (Google Analytics anonymisé)</li>
         <li>Aucun cookie publicitaire tiers n'est installé</li>
       </ul>
     </div>
 
     <div class="legal-section">
-      <h2>Liens d'affiliation</h2>
-      <p>Ce site contient des liens d'affiliation vers des partenaires (mutuelles, Booking.com, Abritel). MutuelleThermes.com peut percevoir une commission sur les souscriptions ou réservations effectuées via ces liens, sans surcoût pour l'utilisateur.</p>
-      <p>Ces partenariats commerciaux ne modifient pas nos classements ni nos recommandations, qui sont basés exclusivement sur une analyse objective des remboursements.</p>
+      <h2>Liens commerciaux</h2>
+      <p><strong>MutuelleThermes.com est un comparateur indépendant. Certains liens présents sur ce site sont des liens commerciaux rémunérés (affiliation). Cela n'influence pas nos analyses.</strong></p>
+      <p>Lorsqu'un visiteur clique sur certains liens et effectue une souscription ou une réservation, MutuelleThermes.com peut percevoir une commission versée par la plateforme d'affiliation. Cette commission est sans surcoût pour l'utilisateur.</p>
+      <p>Les liens commerciaux ne sont activés qu'après acceptation officielle par les programmes d'affiliation concernés. Tant qu'un programme n'est pas actif, les liens renvoient vers les sites officiels des marques sans rémunération.</p>
+      <p>Nos classements et analyses sont basés uniquement sur des critères objectifs (montants de remboursement, conditions des contrats) et ne sont pas influencés par l'existence ou le montant de commissions potentielles.</p>
+      <p>Ce site n'est partenaire d'aucune mutuelle, d'aucun établissement thermal, ni d'aucune plateforme de réservation au sens d'un accord commercial exclusif ou d'une approbation mutuelle.</p>
     </div>
 
     <div class="legal-section">
-      <h2>Hébergement</h2>
-      <p>Ce site est hébergé par Hostinger International Ltd. Le code source est hébergé sur GitHub et déployé via Vercel.</p>
+      <h2>Hébergement technique</h2>
+      <p>Ce site est hébergé par <strong>Vercel Inc.</strong>, 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis. Le code source est hébergé sur <strong>GitHub</strong> (Microsoft Corporation).</p>
     </div>
 
     <div class="legal-section">
@@ -3512,12 +3561,13 @@ footer {
     <div class="legal-section">
       <h2>Données collectées</h2>
       <p><strong>Quiz pathologie :</strong> Vos réponses au quiz restent uniquement dans votre navigateur. Elles ne sont jamais transmises à nos serveurs. Aucun cookie n'enregistre vos choix.</p>
+      <p><strong>Newsletter :</strong> Si vous vous inscrivez à notre newsletter, votre adresse e-mail est transmise à notre prestataire d'envoi (Brevo). Vous pouvez vous désabonner à tout moment en un clic.</p>
       <p><strong>Statistiques de navigation :</strong> Nous utilisons Google Analytics en mode anonymisé (sans cookie publicitaire, IP masquée) pour mesurer notre audience de façon agrégée.</p>
     </div>
 
     <div class="legal-section">
       <h2>Vos droits</h2>
-      <p>Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Pour toute demande : contact@mutuellethermes.com</p>
+      <p>Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Pour toute demande : <a href="mailto:contact@mutuellethermes.com">contact@mutuellethermes.com</a> — Responsable des données : Paulo Vieira Lopes.</p>
     </div>
 
     <div class="legal-section">
@@ -3534,6 +3584,15 @@ footer {
 <!-- ============================================================
      FOOTER (présent sur toutes les pages)
      ============================================================ -->
+<!-- BANDEAU LÉGAL PERMANENT -->
+<div style="background:#1a4a6b;border-top:2px solid #3aafa9;padding:14px 0;">
+  <div class="container">
+    <p style="text-align:center;font-size:.82rem;color:rgba(255,255,255,.75);margin:0;line-height:1.6;">
+      ⚖️ <strong style="color:#7dd8d4;">MutuelleThermes.com est un comparateur indépendant.</strong> Certains liens présents sur ce site sont des liens commerciaux rémunérés. Cela n'influence pas nos analyses. · <a href="javascript:void(0)" onclick="showPage('mentions')" style="color:#7dd8d4;text-decoration:underline;">Mentions légales</a>
+    </p>
+  </div>
+</div>
+
 <footer>
   <div class="container">
     <div class="footer-grid">
@@ -3609,11 +3668,6 @@ footer {
           <div class="lead-feat">✓ Balnéothérapie & spa jusqu'à 200€/an</div>
           <div class="lead-feat">✓ Médecines douces 40€/séance</div>
           <div class="lead-feat">✓ Hébergement thermal remboursé</div>
-        </div>
-
-        <div class="lead-modal__urgence">
-          <span class="lead-urgence-dot"></span>
-          <span id="leadViewers">12 personnes</span> consultent cette offre en ce moment
         </div>
 
         <button class="lead-modal__cta" onclick="leadStep2()">
@@ -3787,6 +3841,18 @@ function filterBlog(cat, btn) {
   }
 }
 
+// === NEWSLETTER ===
+function subscribeNewsletter() {
+  const el = document.getElementById('emailNewsletter') || document.getElementById('emailBlog');
+  const email = el ? el.value : '';
+  if (email && email.includes('@')) {
+    alert('Merci ! Vous recevrez votre premier conseil thermal très bientôt. 🌊\n\n(Intégration Brevo/Mailchimp à connecter en production)');
+    if (el) el.value = '';
+  } else {
+    alert('Veuillez saisir une adresse e-mail valide.');
+  }
+}
+
 // === STATION ===
 function showStation() {
   document.getElementById('station-exemple').style.display = 'block';
@@ -3806,11 +3872,11 @@ function filterMutuelles() {
 
 // === TUNNELS CPLEAD ===
 const leadData = {
-  april:   { logo:'AP', name:'April Santé Senior', remb:'700€/an', color:'#1a4a6b', features:['✓ Cure thermale incluse','✓ Balnéothérapie 200€/an','✓ Médecines douces 40€/séance','✓ Hébergement thermal'], viewers: 12 },
-  harmonie:{ logo:'HM', name:'Harmonie Mutuelle', remb:'500€/an', color:'#3aafa9', features:['✓ Cure thermale incluse','✓ Spa & bien-être','✓ Dès 58€/mois','✓ Réseau agréé étendu'], viewers: 7 },
-  mnh:     { logo:'MN', name:'MNH Senior', remb:'400€/an', color:'#c9973a', features:['✓ Cure thermale incluse','✓ Médecines douces 30€','✓ Réseau senior spécialisé','✓ Sans délai de carence'], viewers: 5 },
-  mgen:    { logo:'MC', name:'MGEN', remb:'350€/an', color:'#5b4a8a', features:['✓ Cure thermale incluse','✓ Médecines douces 25€','✓ Réseau MGEN étendu','✓ Téléconsultation incluse'], viewers: 4 },
-  macif:   { logo:'MF', name:'Macif Santé', remb:'300€/an', color:'#c0392b', features:['✓ Cure thermale de base','✓ Bonne couverture hospit.','✓ Tarif accessible','✓ Gestion en ligne'], viewers: 3 },
+  april:   { logo:'AP', name:'April Santé Senior', remb:'700€/an', color:'#1a4a6b', features:['✓ Cure thermale incluse','✓ Balnéothérapie 200€/an','✓ Médecines douces 40€/séance','✓ Hébergement thermal'], url:'https://www.april.fr/sante/mutuelle-sante' },
+  harmonie:{ logo:'HM', name:'Harmonie Mutuelle', remb:'500€/an', color:'#3aafa9', features:['✓ Cure thermale incluse','✓ Spa & bien-être','✓ Dès 58€/mois','✓ Réseau agréé étendu'], url:'https://www.harmonie-mutuelle.fr/particuliers/sante' },
+  mnh:     { logo:'MN', name:'MNH Senior', remb:'400€/an', color:'#c9973a', features:['✓ Cure thermale incluse','✓ Médecines douces 30€','✓ Réseau senior spécialisé','✓ Sans délai de carence'], url:'https://www.mnh.fr/particuliers/sante' },
+  mgen:    { logo:'MC', name:'MGEN', remb:'350€/an', color:'#5b4a8a', features:['✓ Cure thermale incluse','✓ Médecines douces 25€','✓ Réseau MGEN étendu','✓ Téléconsultation incluse'], url:'https://www.mgen.fr/offres-sante' },
+  macif:   { logo:'MF', name:'Macif Santé', remb:'300€/an', color:'#c0392b', features:['✓ Cure thermale de base','✓ Bonne couverture hospit.','✓ Tarif accessible','✓ Gestion en ligne'], url:'https://www.macif.fr/assurance/particuliers/sante' },
 };
 
 function openLeadModal(id) {
@@ -3820,7 +3886,7 @@ function openLeadModal(id) {
   document.getElementById('leadName').textContent = d.name;
   document.getElementById('leadRemb').innerHTML = 'Jusqu\'à <strong>' + d.remb + '</strong> remboursés';
   document.getElementById('leadFeatures').innerHTML = d.features.map(f => '<div class="lead-feat">'+f+'</div>').join('');
-  document.getElementById('leadViewers').textContent = d.viewers + ' personnes';
+  
   // Reset steps
   document.getElementById('leadStep1').style.display = 'block';
   document.getElementById('leadStep2').style.display = 'none';
@@ -3944,7 +4010,16 @@ function closeModalOutside(e) {
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 </script>
 
-
+<!-- Script Brevo Newsletter -->
+<script>
+  window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+  window.LOCALE = 'fr';
+  window.EMAIL_INVALID_MESSAGE = "L'adresse e-mail saisie n'est pas valide. Veuillez vérifier et réessayer.";
+  window.REQUIRED_ERROR_MESSAGE = "Ce champ est obligatoire.";
+  window.GENERIC_INVALID_MESSAGE = "L'adresse e-mail saisie n'est pas valide. Veuillez vérifier et réessayer.";
+  var AUTOHIDE = Boolean(0);
+</script>
+<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
 
 </body>
 </html>
